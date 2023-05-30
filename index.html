@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jonas website</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+</head>
+
+<body>
+  <!-- Background color  -->
+  <button id="colorButton">Music Night and Day</button>
+  
+  
+<div id="container">
+  <div id="header">
+    <h1><span class="text">JONAS</span>rds</h1>
+    
+    <!-- Video Jonas -->
+    <video id="video-element" src="videos/mas q nada whats.mp4"></video>  
+    
+  </div>
+
+
+  <div id="sidebar">
+    <div id="nav">
+      <ul>
+        <br>
+        <li><a href="#">HOME</a></li><br>
+        <li><a href="#">BIO</a></li><br>
+        <li><a href="#">MEDIA</a></li><br>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+
+    <div id="shows">
+      <h3>Upcoming shows</h3>
+      <ul><br> 
+       <li><strong>14/05</strong> - <a href="https://www.fablehotelsandresorts.com/hotels">Fable Auckland Hotel</a></li>
+        <li><strong>27/05</strong> - <a href="https://www.fablehotelsandresorts.com/hotels">Fable Auckland Hotel</a></li>
+      </ul>
+
+      <!-- form -->
+      <form action="rjonnas@gmail.com" method="post">
+        <fieldset>
+            <legend>Contact Form:</legend>
+            <label>Name:</label><input type="text" name="name"> <br>
+            <label>Email:</label><input type="email" name="email"> <br>
+            <label>Message: </label><br>
+            <textarea name="message"></textarea> <br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+    </div>
+  </div>
+
+  <div id="main">
+    <div class="divider"></div>
+    
+    <h2>about me</h2>
+    <p> Hello, welcome to my webpage.<br>
+      I am Jonas, born and raised in Joinville, Brazil, 
+      now calling New Zealand home. 
+      I am passionate about music, having worked in the industry for over 20 years as a vocalist and guitarist.
+      Music helps me connect to life and I love to connect with people through music.</p>
+    
+    <div class="divider"></div>
+
+    <h2>my hometown</h2>
+    <a href="https://en.wikipedia.org/wiki/Joinville"><img src="images/joinville2.jpg" width="100" height="117" alt="" class="alignleft" /></a>
+
+    <p>Joinville is the largest city in Santa Catarina, in the Southern Region of Brazil.
+It is mainly of Portuguese, German, Swiss, Norwegian and Italian descent. The city has a strong arts culture and it is here where my love of music began. Some of the most popular music genres are rock, sertanejo and MPB (musica popular brazileira, "brazilian popular music"). I grew up loving rock music.</p>
+
+<section id="icon">
+        
+        <main id="content">
+          
+         <a href="https://www.facebook.com/jonasrodrigo.06"><i class="fa-brands fa-facebook fa-3x"></i></a>
+          <a href="https://soundcloud.com/jonasrodrigo"><i class="fa-brands fa-soundcloud fa-3x"></i> </a>
+          <a href="https://youtube.com/playlist?list=PLwkcHfEdw12lxdOTrOz9mgixMo6aDCG6P"><i class="fa-brands fa-youtube fa-3x"></i> </a>
+                    
+        </section>    
+
+       
+        
+      
+  </div>
+  <div id="footer">
+    <p><a target="_blank" href="">Thanks@ </a>
+      
+      
+  </div>
+</div>
+
+
+<!-- Audio button  -->
+
+
+<div class="audio-container">
+<audio id="myAudio" controls loop>
+  <source src="audio/somewhere over.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
